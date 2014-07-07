@@ -1,2 +1,4 @@
 Some text that was written in GitTest_A.
 Just some changes.
+
+B changes A's file.
