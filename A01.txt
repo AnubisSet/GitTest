@@ -1,0 +1,2 @@
+Some text that was written in GitTest_A.
+Just some changes.
