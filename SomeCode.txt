@@ -1,18 +1,33 @@
 public void main()
 {
-	int a = 5;
-	int b = 12;
+	int a, b;
+	a = 5;
+	b = 12;
 	
 	int result = add(a, b);
 	result = mult(a, b);
 }
 
+/**
+Adds together a and b then returns the result;
+*/
 public int add(int a, int b)
 {
 	return a + b;
 }
 
+/**
+Multiplies together a and b then returns the result;
+*/
 public int mult(int a, int b)
 {
 	return a * b;
+}
+
+/**
+Does a integer division between a and b then returns the result;
+*/
+public int div(int a, int b)
+{
+	return a / b;
 }
