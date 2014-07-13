@@ -1,11 +1,13 @@
 public void main()
 {
-	int a, b;
+	int a, b, c;
 	a = 5;
 	b = 12;
+	c = 2;
 	
 	int result = add(a, b);
 	result = mult(a, b);
+	result = add(mult(a, b), c);
 }
 
 /**
@@ -13,7 +15,8 @@ Adds together a and b then returns the result;
 */
 public int add(int a, int b)
 {
-	return a + b;
+	int result = a + b;
+	return result;
 }
 
 /**
@@ -21,7 +24,8 @@ Multiplies together a and b then returns the result;
 */
 public int mult(int a, int b)
 {
-	return a * b;
+	int result = a * b;
+	return result;
 }
 
 /**
@@ -29,5 +33,6 @@ Does a integer division between a and b then returns the result;
 */
 public int div(int a, int b)
 {
-	return a / b;
+	int result = a / b;
+	return result;
 }
